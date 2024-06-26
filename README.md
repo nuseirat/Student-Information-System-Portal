@@ -1,6 +1,5 @@
 # Student Information System Portal
 
-# ADU Student Portal
 
 ## Description
 This project is a student portal for Arab Open University (AOU) students. It provides a user-friendly interface for students to access various academic and administrative services, including course information, grades, financial details, and more.
