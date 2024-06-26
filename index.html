@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Meta information for character set and viewport settings -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AOU Online Student Information System</title>
+
+    <!-- Link to Google Fonts for Roboto font -->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+    
+    <!-- Link to Font Awesome for icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    
+    <!-- Link to external CSS file -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Header icons with links and onclick events -->
+    <div class="header-icons">
+        <a href="#" onclick="openLMS()" title="Open LMS"><i class="fas fa-graduation-cap icon"></i></a>
+        <a href="#" onclick="editPersonalInfo()" title="Edit Personal Info"><i class="fas fa-user-edit icon"></i></a>
+        <a href="#" onclick="changePassword()" title="Change Password"><i class="fas fa-key icon"></i></a>
+    </div>
+</head>
+
+<body>
+    <!-- Main container for the content -->
+    <div class="container">
+        <!-- Sidebar navigation -->
+        <nav class="sidebar">
+            <h2><i class="fas fa-university icon"></i>AOU SIS</h2>
+            <ul>
+                <!-- Navigation links with icons and onclick events -->
+                <li><a href="#" onclick="loadContent('dashboard')"><i class="fas fa-tachometer-alt icon"></i>Dashboard</a></li>
+                <li><a href="#" onclick="loadContent('personal')"><i class="fas fa-user icon"></i>Personal Information</a></li>
+                <li><a href="#" onclick="loadContent('academic')"><i class="fas fa-book icon"></i>Academic Records</a></li>
+                <li><a href="#" onclick="loadContent('courses')"><i class="fas fa-chalkboard icon"></i>Course Catalog</a></li>
+                <li><a href="#" onclick="loadContent('registration')"><i class="fas fa-edit icon"></i>Registration</a></li>
+                <li><a href="#" onclick="loadContent('schedule')"><i class="fas fa-calendar-alt icon"></i>Class Schedule</a></li>
+                <li><a href="#" onclick="loadContent('grades')"><i class="fas fa-chart-line icon"></i>Grades & GPA</a></li>
+                <li><a href="#" onclick="loadContent('financial')"><i class="fas fa-dollar-sign icon"></i>Financial Information</a></li>
+                <li><a href="#" onclick="loadContent('advising')"><i class="fas fa-user-tie icon"></i>Academic Advising</a></li>
+                <li><a href="#" onclick="loadContent('transcripts')"><i class="fas fa-file-alt icon"></i>Transcripts</a></li>
+                <li><a href="#" onclick="loadContent('postpone')"><i class="fas fa-calendar-times icon"></i>Postpone Exam</a></li>
+                <li><a href="#" onclick="loadContent('courseRegistration')"><i class="fas fa-book-open icon"></i>Course Registration</a></li>
+                <li><a href="#" onclick="loadContent('eServices')"><i class="fas fa-cogs icon"></i>E-Services</a></li>
+                <li><a href="https://nuseirat.github.io/" ><i class="fas fa- icon"></i>Mohammed Nuseirat</a></li>
+
+            </ul>
+        </nav>
+        
+        <!-- Main content area -->
+        <main class="main-content">
+            <!-- Header for the main content area -->
+            <header class="header">
+                <h1>AOU Student Information System</h1>
+                <p>Open Horizons for a Brighter Future</p>
+            </header>
+            
+            <!-- Search bar -->
+            <input type="text" class="search-bar" placeholder="Search SIS...">
+            
+            <!-- Div for dynamic content -->
+            <div id="content" class="grid">
+            </div>
+        </main>
+    </div>
+
+    <!-- Link to external JavaScript file -->
+    <script src="script.js"></script>
+</body>
+
+</html>
