@@ -1,6 +1,8 @@
 # Student Information System Portal
 
 
+![لقطة شاشة 2024-06-26 140617](https://github.com/nuseirat/Student-Information-System-Portal/assets/130251088/61e2567a-dae8-406f-b958-98263f7c515e)
+
 ## Description
 This project is a student portal for Arab Open University (AOU) students. It provides a user-friendly interface for students to access various academic and administrative services, including course information, grades, financial details, and more.
 
