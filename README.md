@@ -24,6 +24,12 @@ This project is a student portal for Arab Open University (AOU) students. It pro
 - Direct link to Learning Management System (LMS)
 - Personal information and password management
 
+
+![لقطة شاشة 2024-06-26 140641](https://github.com/nuseirat/Student-Information-System-Portal/assets/130251088/923fc863-f25e-48a9-bae9-00ba94131e3f)
+
+![لقطة شاشة 2024-06-26 140711](https://github.com/nuseirat/Student-Information-System-Portal/assets/130251088/b7181a35-7ca8-419c-b047-09c94652458b)
+
+
 ## Technologies Used
 - HTML5
 - CSS3
